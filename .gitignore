@@ -1,0 +1,33 @@
+# Python environment and caches
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+
+# Local credentials; keep the empty configuration template
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated corpus, embeddings and review suggestions
+data/raw/
+data/chunks.jsonl
+data/parents.jsonl
+data/manifest.json
+data/history_candidates.jsonl
+data/chunk_meta.json
+data/index/
+data/dev_evidence_candidates.jsonl
+data/history_review_draft.json
+
+# Local run logs and account-specific model discovery
+results/runs/
+results/frozen/
+results/available_models.json
+
+# Temporary files and handover archives
+tmp/
+*.tmp
+*.log
+*.zip

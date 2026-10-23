@@ -1,0 +1,12 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "embedding_device": "cpu",
+  "chunk_tokens": 100,
+  "context_tokens_single": 1500,
+  "context_tokens_compare": 3000,
+  "top_k": 5,
+  "llm_max_output_tokens": 4096,
+  "llm_temperature": null,
+  "supported_versions": ["3.10", "3.11"]
+}
