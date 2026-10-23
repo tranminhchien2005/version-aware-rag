@@ -1,0 +1,8 @@
+[
+  {"source_id":"py310_re","source_version":"3.10","module":"re","url":"https://docs.python.org/3.10/library/re.html"},
+  {"source_id":"py311_re","source_version":"3.11","module":"re","url":"https://docs.python.org/3.11/library/re.html"},
+  {"source_id":"py310_math","source_version":"3.10","module":"math","url":"https://docs.python.org/3.10/library/math.html"},
+  {"source_id":"py311_math","source_version":"3.11","module":"math","url":"https://docs.python.org/3.11/library/math.html"},
+  {"source_id":"py310_builtins","source_version":"3.10","module":"builtins","url":"https://docs.python.org/3.10/library/functions.html"},
+  {"source_id":"py311_builtins","source_version":"3.11","module":"builtins","url":"https://docs.python.org/3.11/library/functions.html"}
+]
