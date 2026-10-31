@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-20T21:05:31.957757+00:00",
+  "url": "http://127.0.0.1:8501",
+  "health_status": 200,
+  "health_body": "ok",
+  "homepage_status": 200,
+  "browser_visual_check": false
+}

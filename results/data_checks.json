@@ -1,0 +1,354 @@
+{
+  "checked_at": "2026-10-20T21:28:36.454307+00:00",
+  "kind": "real_corpus_embedding_integration_check",
+  "notice": "Kiểm tra dữ liệu và truy xuất thật; chưa đo độ chính xác câu trả lời hoặc LLM kiểm chứng.",
+  "pages": 3,
+  "chunks": 368,
+  "history_notes": 0,
+  "embedding": {
+    "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "max_seq_length": 128,
+    "tokenizer_sha256": "842886b0fb88cbb60120ae81aa113f8d7f01945104d76045d5d4e21197d6c33f"
+  },
+  "largest_chunk_tokens": 100,
+  "corpus_version": "b80e7b1bc1e0645ff21f20ee190d1d3c3c8685abd137f403863605089f301e8f",
+  "retrieval_cases": [
+    {
+      "question": "tomllib trong Python 3.11 có ghi TOML không?",
+      "versions": [
+        "3.11"
+      ],
+      "mode": "A",
+      "evidence": [
+        {
+          "chunk_id": "ch_78bf5c6825871fcb3f29",
+          "source_version": "3.11",
+          "section": "Examples",
+          "score": 0.7666333913803101,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#examples"
+        },
+        {
+          "chunk_id": "ch_06f2029b77574328c9a4",
+          "source_version": "3.11",
+          "section": "tomllib — Parse TOML files",
+          "score": 0.7643382549285889,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#module-tomllib"
+        },
+        {
+          "chunk_id": "note_2b3239aa32a2d4b7cc93",
+          "source_version": "3.11",
+          "section": "tomllib — Parse TOML files",
+          "score": 0.7623909711837769,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#module-tomllib"
+        },
+        {
+          "chunk_id": "ch_572072edb617ce3b1bad",
+          "source_version": "3.11",
+          "section": "tomllib — Parse TOML files",
+          "score": 0.7621335983276367,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#module-tomllib"
+        },
+        {
+          "chunk_id": "ch_54640cbb55815d33cf26",
+          "source_version": "3.11",
+          "section": "tomllib — Parse TOML files",
+          "score": 0.7502237558364868,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#module-tomllib"
+        }
+      ]
+    },
+    {
+      "question": "tomllib trong Python 3.11 có ghi TOML không?",
+      "versions": [
+        "3.11"
+      ],
+      "mode": "B",
+      "evidence": [
+        {
+          "chunk_id": "ch_78bf5c6825871fcb3f29",
+          "source_version": "3.11",
+          "section": "Examples",
+          "score": 0.7666333913803101,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#examples"
+        },
+        {
+          "chunk_id": "ch_06f2029b77574328c9a4",
+          "source_version": "3.11",
+          "section": "tomllib — Parse TOML files",
+          "score": 0.7643382549285889,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#module-tomllib"
+        },
+        {
+          "chunk_id": "note_2b3239aa32a2d4b7cc93",
+          "source_version": "3.11",
+          "section": "tomllib — Parse TOML files",
+          "score": 0.7623909711837769,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#module-tomllib"
+        },
+        {
+          "chunk_id": "ch_572072edb617ce3b1bad",
+          "source_version": "3.11",
+          "section": "tomllib — Parse TOML files",
+          "score": 0.7621335983276367,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#module-tomllib"
+        },
+        {
+          "chunk_id": "ch_54640cbb55815d33cf26",
+          "source_version": "3.11",
+          "section": "tomllib — Parse TOML files",
+          "score": 0.7502237558364868,
+          "url": "https://docs.python.org/3.11/library/tomllib.html#module-tomllib"
+        }
+      ]
+    },
+    {
+      "question": "asyncio.create_task trong Python 3.10 dùng thế nào?",
+      "versions": [
+        "3.10"
+      ],
+      "mode": "A",
+      "evidence": [
+        {
+          "chunk_id": "note_d99a5f25783e5284e5aa",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.7808432579040527,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_456a0faa7d14ad9cb0b7",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.7732118368148804,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "note_58ca945b3386f0f9fff4",
+          "source_version": "3.11",
+          "section": "asyncio.create_task(coro, *, name=None, context=None)",
+          "score": 0.7718877792358398,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_eb23e6bba963142cfaf1",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.7691084146499634,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_d374df80ab87fe958280",
+          "source_version": "3.11",
+          "section": "asyncio.create_task(coro, *, name=None, context=None)",
+          "score": 0.7619432210922241,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#asyncio.create_task"
+        }
+      ]
+    },
+    {
+      "question": "asyncio.create_task trong Python 3.10 dùng thế nào?",
+      "versions": [
+        "3.10"
+      ],
+      "mode": "B",
+      "evidence": [
+        {
+          "chunk_id": "note_d99a5f25783e5284e5aa",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.7808432579040527,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_456a0faa7d14ad9cb0b7",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.7732118368148804,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_eb23e6bba963142cfaf1",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.7691084146499634,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_14cd6d05f500e67091a2",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.7387107014656067,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_b5c7ccc24fd5ea7a0d24",
+          "source_version": "3.10",
+          "section": "Coroutines",
+          "score": 0.7340667247772217,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#coroutines"
+        }
+      ]
+    },
+    {
+      "question": "So sánh TaskGroup trong Python 3.10 và 3.11",
+      "versions": [
+        "3.10",
+        "3.11"
+      ],
+      "mode": "A",
+      "evidence": [
+        {
+          "chunk_id": "ch_f4a239e7cbb1ba8d40c6",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.7006525993347168,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_12094662e04c803df62c",
+          "source_version": "3.11",
+          "section": "Coroutines",
+          "score": 0.6381354928016663,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#coroutines"
+        },
+        {
+          "chunk_id": "ch_96dd1b60ab6e4e14c0c1",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.6056420803070068,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_a586e2036e4231f453a0",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.6004470586776733,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_241d521fdbc9f410b0f5",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.5981575846672058,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_dbc936951b5c6f4aa0ba",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.5963097810745239,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_d1e39f8da85e3a4dff9c",
+          "source_version": "3.11",
+          "section": "Coroutines",
+          "score": 0.5932544469833374,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#coroutines"
+        },
+        {
+          "chunk_id": "ch_3da598e5c5b7cc8cb4e1",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.5865751504898071,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_6076bdc8865804a9e299",
+          "source_version": "3.10",
+          "section": "awaitable asyncio.gather(*aws, return_exceptions=False)",
+          "score": 0.5742331743240356,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.gather"
+        },
+        {
+          "chunk_id": "ch_f51cfba7d074da1b9e58",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.5707555413246155,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        }
+      ]
+    },
+    {
+      "question": "So sánh TaskGroup trong Python 3.10 và 3.11",
+      "versions": [
+        "3.10",
+        "3.11"
+      ],
+      "mode": "B",
+      "evidence": [
+        {
+          "chunk_id": "ch_6076bdc8865804a9e299",
+          "source_version": "3.10",
+          "section": "awaitable asyncio.gather(*aws, return_exceptions=False)",
+          "score": 0.5742331743240356,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.gather"
+        },
+        {
+          "chunk_id": "ch_f4a239e7cbb1ba8d40c6",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.7006525993347168,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_b5c7ccc24fd5ea7a0d24",
+          "source_version": "3.10",
+          "section": "Coroutines",
+          "score": 0.5485448241233826,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#coroutines"
+        },
+        {
+          "chunk_id": "ch_12094662e04c803df62c",
+          "source_version": "3.11",
+          "section": "Coroutines",
+          "score": 0.6381354928016663,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#coroutines"
+        },
+        {
+          "chunk_id": "ch_456a0faa7d14ad9cb0b7",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.547035276889801,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_96dd1b60ab6e4e14c0c1",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.6056420803070068,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_14cd6d05f500e67091a2",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.5272892117500305,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_a586e2036e4231f453a0",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.6004470586776733,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        },
+        {
+          "chunk_id": "ch_eb23e6bba963142cfaf1",
+          "source_version": "3.10",
+          "section": "asyncio.create_task(coro, *, name=None)",
+          "score": 0.5089625716209412,
+          "url": "https://docs.python.org/3.10/library/asyncio-task.html#asyncio.create_task"
+        },
+        {
+          "chunk_id": "ch_241d521fdbc9f410b0f5",
+          "source_version": "3.11",
+          "section": "Task Groups",
+          "score": 0.5981575846672058,
+          "url": "https://docs.python.org/3.11/library/asyncio-task.html#task-groups"
+        }
+      ]
+    }
+  ]
+}

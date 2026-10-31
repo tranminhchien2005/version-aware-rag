@@ -1,0 +1,107 @@
+{
+  "imports": [
+    "src.chunk",
+    "src.collect",
+    "src.common",
+    "src.embedding",
+    "src.evaluation",
+    "src.generate",
+    "src.llm_client",
+    "src.pipeline",
+    "src.retrieve",
+    "src.runtime",
+    "src.verify",
+    "src.version_policy",
+    "scripts.ask",
+    "scripts.check_data",
+    "scripts.check_environment",
+    "scripts.check_llm",
+    "scripts.demo_offline",
+    "scripts.evaluate",
+    "scripts.inspect_corpus",
+    "scripts.list_models",
+    "scripts.package_project",
+    "scripts.prepare_dev_review",
+    "scripts.review_history",
+    "scripts.test_project",
+    "tests.fixtures",
+    "tests.test_core",
+    "tests.test_data_evaluation",
+    "tests.test_integration_local",
+    "tests.test_llm_transport"
+  ],
+  "cli_help": [
+    "src.collect",
+    "src.chunk",
+    "src.retrieve",
+    "scripts.ask",
+    "scripts.check_llm",
+    "scripts.evaluate",
+    "scripts.review_history",
+    "scripts.prepare_dev_review",
+    "scripts.inspect_corpus"
+  ],
+  "live_generation_requests": 0,
+  "cli_missing_version": {
+    "modes": "ABC",
+    "status": "clarify",
+    "llm_calls": 0
+  },
+  "offline_demo": {
+    "abc_answer": true,
+    "llm_test_double_calls": 3,
+    "b_c_share_draft": true,
+    "c_includes_b_token_usage": true
+  },
+  "dataset_validation": "{'questions': 12, 'groups': 4}",
+  "dependencies": "No broken requirements found.",
+  "streamlit_health": 200,
+  "streamlit_home": 200,
+  "protected_files": {
+    "checked": 29,
+    "changed": []
+  },
+  "behavior_before_after_equal": true,
+  "behavior_sha256": "e20e494dc9f555f6d73b5e3f2b2174b1b596d6ab5dc2b2ba357200b9060285d5",
+  "notice": "Software/refactor checks; offline LLM uses test doubles. No RAG quality or performance claim.",
+  "kind": "refactor_behavior_preservation_checks_not_rag_quality_evaluation",
+  "checked_at": "2026-10-21T21:52:01.170603+00:00",
+  "git_status": "not_a_git_repository; existing source snapshot preserved outside the project",
+  "before": {
+    "tests_run": 64,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "after": {
+    "tests_run": 68,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "comparison": {
+    "policy_requests": 15,
+    "pipeline_scenarios": 7,
+    "synthetic_searches": 36,
+    "real_searches": 9,
+    "rebuilt_chunks": 368,
+    "volatile_fields_excluded": [
+      "run_id",
+      "created_at",
+      "paired_b_run_id",
+      "latency_ms",
+      "stage_ms",
+      "verification_ms"
+    ]
+  },
+  "local_import_casing": {
+    "module_paths_checked": 14,
+    "correct": true
+  },
+  "performance_before_after": "not_measured",
+  "browser_visual_check": "unavailable",
+  "report": "notes/REFACTOR.md",
+  "evidence_directory": "D:\\LLM\\tmp\\refactor_20261022\\evidence"
+}

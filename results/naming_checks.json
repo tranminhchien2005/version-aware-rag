@@ -1,0 +1,768 @@
+{
+  "kind": "naming_refactor_checks_not_rag_quality_evaluation",
+  "checked_at": "2026-10-21T22:02:38.675530+00:00",
+  "files_with_identifier_renames": 16,
+  "identifier_mappings": 123,
+  "identifier_occurrences": 656,
+  "ast_equivalence_except_local_names": true,
+  "external_attribute_and_keyword_names_preserved": true,
+  "protected_files": {
+    "checked": 30,
+    "changed": []
+  },
+  "behavior_before_after_equal": true,
+  "behavior_sha256": "e20e494dc9f555f6d73b5e3f2b2174b1b596d6ab5dc2b2ba357200b9060285d5",
+  "cli_options_preserved": [
+    "review-template",
+    "summarize"
+  ],
+  "live_generation_requests": 0,
+  "renames": [
+    {
+      "file": "src/common.py",
+      "old": "a",
+      "new": "left_usage",
+      "occurrences": 3
+    },
+    {
+      "file": "src/common.py",
+      "old": "b",
+      "new": "right_usage",
+      "occurrences": 3
+    },
+    {
+      "file": "src/collect.py",
+      "old": "local",
+      "new": "local_path",
+      "occurrences": 4
+    },
+    {
+      "file": "src/collect.py",
+      "old": "merged",
+      "new": "manifest_by_source",
+      "occurrences": 4
+    },
+    {
+      "file": "src/collect.py",
+      "old": "old",
+      "new": "previous_manifest",
+      "occurrences": 2
+    },
+    {
+      "file": "src/collect.py",
+      "old": "previous",
+      "new": "previous_source",
+      "occurrences": 7
+    },
+    {
+      "file": "src/collect.py",
+      "old": "s",
+      "new": "source_entry",
+      "occurrences": 5
+    },
+    {
+      "file": "src/collect.py",
+      "old": "seen",
+      "new": "seen_source_ids",
+      "occurrences": 3
+    },
+    {
+      "file": "src/collect.py",
+      "old": "sha",
+      "new": "source_sha256",
+      "occurrences": 3
+    },
+    {
+      "file": "src/collect.py",
+      "old": "sid",
+      "new": "source_id",
+      "occurrences": 8
+    },
+    {
+      "file": "src/collect.py",
+      "old": "spec",
+      "new": "source_spec",
+      "occurrences": 6
+    },
+    {
+      "file": "src/chunk.py",
+      "old": "base",
+      "new": "source_metadata",
+      "occurrences": 7
+    },
+    {
+      "file": "src/chunk.py",
+      "old": "cid",
+      "new": "candidate_id",
+      "occurrences": 6
+    },
+    {
+      "file": "src/chunk.py",
+      "old": "copy",
+      "new": "html_fragment",
+      "occurrences": 3
+    },
+    {
+      "file": "src/chunk.py",
+      "old": "r",
+      "new": "history_review",
+      "occurrences": 3
+    },
+    {
+      "file": "src/chunk.py",
+      "old": "raw",
+      "new": "raw_path",
+      "occurrences": 3
+    },
+    {
+      "file": "src/chunk.py",
+      "old": "reviewed",
+      "new": "reviews_by_candidate",
+      "occurrences": 4
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "c",
+      "new": "chunk",
+      "occurrences": 10
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "folder",
+      "new": "index_folder",
+      "occurrences": 5
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "i",
+      "new": "chunk_index",
+      "occurrences": 8
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "ids",
+      "new": "chunk_ids",
+      "occurrences": 4
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "items",
+      "new": "version_indices",
+      "occurrences": 4
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "k",
+      "new": "top_k",
+      "occurrences": 2
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "limit",
+      "new": "context_token_limit",
+      "occurrences": 2
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "lists",
+      "new": "ranked_by_version",
+      "occurrences": 2
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "q",
+      "new": "query_vector",
+      "occurrences": 5
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "scores",
+      "new": "similarity_scores",
+      "occurrences": 3
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "selected",
+      "new": "selected_indices",
+      "occurrences": 5
+    },
+    {
+      "file": "src/retrieve.py",
+      "old": "v",
+      "new": "version",
+      "occurrences": 2
+    },
+    {
+      "file": "src/pipeline.py",
+      "old": "b",
+      "new": "b_record",
+      "occurrences": 17
+    },
+    {
+      "file": "src/pipeline.py",
+      "old": "c",
+      "new": "c_record",
+      "occurrences": 15
+    },
+    {
+      "file": "src/pipeline.py",
+      "old": "k",
+      "new": "usage_field",
+      "occurrences": 5
+    },
+    {
+      "file": "src/pipeline.py",
+      "old": "v",
+      "new": "verdict",
+      "occurrences": 2
+    },
+    {
+      "file": "src/verify.py",
+      "old": "c",
+      "new": "claim",
+      "occurrences": 3
+    },
+    {
+      "file": "src/verify.py",
+      "old": "cid",
+      "new": "claim_id",
+      "occurrences": 9
+    },
+    {
+      "file": "src/verify.py",
+      "old": "e",
+      "new": "evidence_item",
+      "occurrences": 3
+    },
+    {
+      "file": "src/verify.py",
+      "old": "expected",
+      "new": "claims_by_id",
+      "occurrences": 5
+    },
+    {
+      "file": "src/verify.py",
+      "old": "indexed",
+      "new": "evidence_by_id",
+      "occurrences": 8
+    },
+    {
+      "file": "src/verify.py",
+      "old": "r",
+      "new": "evidence_id",
+      "occurrences": 4
+    },
+    {
+      "file": "src/verify.py",
+      "old": "raw",
+      "new": "raw_verdict",
+      "occurrences": 9
+    },
+    {
+      "file": "src/verify.py",
+      "old": "ref",
+      "new": "evidence_id",
+      "occurrences": 6
+    },
+    {
+      "file": "src/verify.py",
+      "old": "refs",
+      "new": "evidence_ids",
+      "occurrences": 12
+    },
+    {
+      "file": "src/verify.py",
+      "old": "seen",
+      "new": "seen_claim_ids",
+      "occurrences": 4
+    },
+    {
+      "file": "src/verify.py",
+      "old": "v",
+      "new": "version",
+      "occurrences": 6
+    },
+    {
+      "file": "src/generate.py",
+      "old": "c",
+      "new": "claim",
+      "occurrences": 6
+    },
+    {
+      "file": "src/generate.py",
+      "old": "e",
+      "new": "evidence_item",
+      "occurrences": 5
+    },
+    {
+      "file": "src/generate.py",
+      "old": "eid",
+      "new": "evidence_id",
+      "occurrences": 2
+    },
+    {
+      "file": "src/generate.py",
+      "old": "i",
+      "new": "claim_number",
+      "occurrences": 2
+    },
+    {
+      "file": "src/generate.py",
+      "old": "known",
+      "new": "known_evidence_ids",
+      "occurrences": 2
+    },
+    {
+      "file": "src/generate.py",
+      "old": "raw",
+      "new": "raw_claim",
+      "occurrences": 7
+    },
+    {
+      "file": "src/generate.py",
+      "old": "x",
+      "new": "evidence_id",
+      "occurrences": 2
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "answer_gold",
+      "new": "answerable_records",
+      "occurrences": 6
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "c",
+      "new": "claim",
+      "occurrences": 4
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "c",
+      "new": "gold_claim",
+      "occurrences": 3
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "correct",
+      "new": "correct_answers",
+      "occurrences": 2
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "correct_gold",
+      "new": "correct_answerable",
+      "occurrences": 2
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "e",
+      "new": "evidence_id",
+      "occurrences": 5
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "gold",
+      "new": "questions_by_id",
+      "occurrences": 7
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "groups",
+      "new": "group_splits",
+      "occurrences": 4
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "ids",
+      "new": "question_ids",
+      "occurrences": 3
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "multi_n",
+      "new": "multiple_source_total",
+      "occurrences": 3
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "multi_ok",
+      "new": "multiple_source_correct",
+      "occurrences": 3
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "one_n",
+      "new": "single_source_total",
+      "occurrences": 3
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "one_ok",
+      "new": "single_source_correct",
+      "occurrences": 3
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "pending",
+      "new": "pending_answer_records",
+      "occurrences": 7
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "pending_gold",
+      "new": "pending_answerable",
+      "occurrences": 2
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "q",
+      "new": "question",
+      "occurrences": 3
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "r",
+      "new": "record",
+      "occurrences": 55
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "retrieval_denom",
+      "new": "retrieval_total",
+      "occurrences": 3
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "reviewed",
+      "new": "reviewed_by_run_id",
+      "occurrences": 7
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "s",
+      "new": "evidence_set",
+      "occurrences": 8
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "s",
+      "new": "review",
+      "occurrences": 11
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "scored",
+      "new": "reviews_by_run_id",
+      "occurrences": 4
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "selected",
+      "new": "mode_records",
+      "occurrences": 13
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "sets",
+      "new": "evidence_sets",
+      "occurrences": 4
+    },
+    {
+      "file": "src/evaluation.py",
+      "old": "v",
+      "new": "version",
+      "occurrences": 2
+    },
+    {
+      "file": "src/llm_client.py",
+      "old": "key",
+      "new": "api_key",
+      "occurrences": 3
+    },
+    {
+      "file": "src/llm_client.py",
+      "old": "meta",
+      "new": "usage_metadata",
+      "occurrences": 3
+    },
+    {
+      "file": "src/llm_client.py",
+      "old": "options",
+      "new": "generation_options",
+      "occurrences": 3
+    },
+    {
+      "file": "src/llm_client.py",
+      "old": "source",
+      "new": "provider_field",
+      "occurrences": 2
+    },
+    {
+      "file": "src/llm_client.py",
+      "old": "target",
+      "new": "usage_field",
+      "occurrences": 2
+    },
+    {
+      "file": "src/llm_client.py",
+      "old": "text",
+      "new": "response_text",
+      "occurrences": 4
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "b",
+      "new": "b_record",
+      "occurrences": 8
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "c",
+      "new": "chunk",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "c",
+      "new": "claim",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "cells",
+      "new": "metric_cells",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "groups",
+      "new": "group_metrics",
+      "occurrences": 4
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "known",
+      "new": "known_chunk_ids",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "known",
+      "new": "question_ids",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "m",
+      "new": "metric",
+      "occurrences": 5
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "other",
+      "new": "other_questions",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "p",
+      "new": "command_parser",
+      "occurrences": 15
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "p",
+      "new": "path",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "q",
+      "new": "question",
+      "occurrences": 21
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "qid",
+      "new": "question_id",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "qids",
+      "new": "group_question_ids",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "questions",
+      "new": "questions_by_id",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "r",
+      "new": "record",
+      "occurrences": 30
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "rep",
+      "new": "repetition",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "row",
+      "new": "record",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "rows",
+      "new": "records",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "rows",
+      "new": "review_rows",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "runs",
+      "new": "group_records",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "s",
+      "new": "review",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "scores",
+      "new": "reviews",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "subs",
+      "new": "subcommands",
+      "occurrences": 6
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "subset",
+      "new": "group_questions",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "versions",
+      "new": "package_versions",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/check_data.py",
+      "old": "c",
+      "new": "chunk",
+      "occurrences": 4
+    },
+    {
+      "file": "scripts/check_data.py",
+      "old": "e",
+      "new": "evidence_item",
+      "occurrences": 4
+    },
+    {
+      "file": "scripts/check_data.py",
+      "old": "v",
+      "new": "version",
+      "occurrences": 4
+    },
+    {
+      "file": "scripts/check_llm.py",
+      "old": "b",
+      "new": "b_record",
+      "occurrences": 6
+    },
+    {
+      "file": "scripts/check_llm.py",
+      "old": "c",
+      "new": "c_record",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/check_llm.py",
+      "old": "c",
+      "new": "llm_call",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/check_llm.py",
+      "old": "previous",
+      "new": "previous_verifications",
+      "occurrences": 5
+    },
+    {
+      "file": "scripts/check_llm.py",
+      "old": "r",
+      "new": "record",
+      "occurrences": 18
+    },
+    {
+      "file": "scripts/demo_offline.py",
+      "old": "pipe",
+      "new": "pipeline",
+      "occurrences": 2
+    },
+    {
+      "file": "scripts/demo_offline.py",
+      "old": "r",
+      "new": "record",
+      "occurrences": 4
+    },
+    {
+      "file": "scripts/inspect_corpus.py",
+      "old": "c",
+      "new": "chunk",
+      "occurrences": 6
+    },
+    {
+      "file": "scripts/inspect_corpus.py",
+      "old": "p",
+      "new": "parent",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/prepare_dev_review.py",
+      "old": "e",
+      "new": "evidence_item",
+      "occurrences": 3
+    },
+    {
+      "file": "scripts/prepare_dev_review.py",
+      "old": "q",
+      "new": "question",
+      "occurrences": 6
+    },
+    {
+      "file": "app.py",
+      "old": "e",
+      "new": "evidence_item",
+      "occurrences": 6
+    }
+  ],
+  "evidence_directory": "D:\\LLM\\tmp\\naming_20261022\\evidence",
+  "tests": {
+    "run": 70,
+    "successful": true,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}
